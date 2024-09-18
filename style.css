@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: block;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    font-size: 1rem;
+    color: white;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0 10px
+}
+
+input {
+    height: 30px;
+    width: 10%;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+#btnVolver {
+    visibility: hidden;
+}
+
