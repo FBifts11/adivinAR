@@ -18,7 +18,7 @@ function comprobarNumero() {
         mensaje.textContent = '¡Te faltó poquito! Elegí un número mas alto'
         mensaje.style.color = 'red'
     } else {
-        mensaje.textContent = 'Felicitaciones! ¡Elegiste el número correcto!'
+        mensaje.textContent = '¡Felicitaciones! ¡Elegiste el número correcto!'
         mensaje.style.color = 'green'
         document.getElementById('btnVolver').style.visibility= 'visible'
     }
